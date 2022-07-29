@@ -1,0 +1,41 @@
+{
+  "name": "vite-react-tailwind",
+  "version": "0.0.0",
+  "description": "Vite template",
+  "keywords": [
+    "website"
+  ],
+  "homepage": "https://github.com/jrdrwn/vite-react-tailwind#readme",
+  "bugs": {
+    "url": "https://github.com/jrdrwn/vite-react-tailwind/issues",
+    "email": "jordirwn@gmail.com"
+  },
+  "author": "Jordi Irawan <jordirwn@gmail.com> (https://vite-react-tailwind/)",
+  "license": "MIT",
+  "main": "./src/App.jsx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrdrwn/vite-react-tailwind.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^4.4.0",
+    "tailwindcss": "^3.1.4",
+    "vite": "^2.9.9"
+  }
+}
