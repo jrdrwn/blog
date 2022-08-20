@@ -8,3 +8,14 @@
 
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+  border-radius: 1rem;
+  width: 0.5rem;
+  background-color: hsl(var(--n));
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--p));
+  border-radius: 1rem;
+}
